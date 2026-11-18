@@ -1,0 +1,6 @@
+{
+  "name": "Não Pega Ar, Natal!",
+  "description": "Jogo cartunesco de estilingue para computador e celular onde você alimenta o Natal antes que ele pegue ar e saia voando.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
