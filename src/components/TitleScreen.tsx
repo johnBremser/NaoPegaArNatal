@@ -1,5 +1,6 @@
 import React from 'react';
 import { Play, Trophy, Volume2, VolumeX } from 'lucide-react';
+import { PWAInstallButton } from './PWAInstallButton';
 
 interface TitleScreenProps {
   highScore: number;
@@ -77,6 +78,7 @@ export const TitleScreen: React.FC<TitleScreenProps> = ({
               <Play className="h-6 w-6 fill-current" />
               <span>Jogar</span>
             </button>
+            <PWAInstallButton />
           </div>
         </div>
       </div>

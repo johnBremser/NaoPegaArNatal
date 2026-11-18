@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { GameHud } from './components/GameHud';
 import { GameOverModal, PauseModal } from './components/Modals';
+import { OfflineIndicator } from './components/OfflineIndicator';
 import { TitleScreen } from './components/TitleScreen';
 import { soundEngine } from './game/audio';
 import { GameCanvas } from './game/GameCanvas';
@@ -210,6 +211,8 @@ export default function App() {
           onMainMenu={handleMainMenu}
         />
       )}
+
+      <OfflineIndicator />
     </main>
   );
 }
